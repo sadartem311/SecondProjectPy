@@ -1,3 +1,4 @@
+
 def get_vat(payment, present = 20):
 	try:
 		payment = float(payment)
@@ -7,5 +8,5 @@ def get_vat(payment, present = 20):
 	except TypeEror:
 		return 'Cant count. Check data'
 
-result = get_vat(400, 15)
+result = get_vat(400, 19)
 print(result)
